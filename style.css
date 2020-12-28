@@ -1,0 +1,112 @@
+/* line 4, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 10, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+body {
+  background-image: url(./images/bg-desktop.svg);
+  background-color: #674bb1;
+  background-size: 1255px;
+  background-position: top 1px right 215px;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+/* line 19, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.container {
+  display: grid;
+  grid-template-columns: 55% 55%;
+  grid-template-rows: 135px auto 65px;
+  grid-template-areas: "header . " "images text" "attribution socials";
+  margin: 65px 80px; }
+
+/* line 31, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-logo {
+  grid-area: header; }
+  /* line 33, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+  .item-logo img {
+    width: 250px; }
+
+/* line 38, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-images {
+  grid-area: images; }
+
+/* line 42, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-text {
+  grid-area: text;
+  padding: 30px 120px 55px 0;
+  color: #fff; }
+  /* line 46, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+  .item-text h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    font-weight: 600; }
+  /* line 51, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+  .item-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 130px; }
+  /* line 57, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+  .item-text button {
+    background-color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #674baf;
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 12px 60px;
+    margin-top: 30px;
+    box-shadow: 5px 7px 5px #483e63;
+    cursor: pointer;
+    transition: transform 0.7s; }
+
+/* line 74, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+button:hover {
+  background-color: #e882e8;
+  color: #ffff;
+  transform: scale(1.2, 1.2); }
+
+/* line 80, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-socials {
+  grid-area: socials;
+  justify-self: end;
+  align-self: center;
+  margin-right: 210px; }
+
+/* line 87, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-socials i {
+  padding: 10px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.5s; }
+
+/* line 100, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-socials i:hover {
+  transform: scale(1.2, 1.2);
+  color: #e882e8; }
+
+/* line 105, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-attribution {
+  font-family: 'Poppins', sans-serif;
+  font-size: .65em;
+  color: #ffff;
+  margin-left: 590px;
+  margin-top: -100px; }
+
+/* line 113, /Users/antoine/Desktop/Coding/Frontend Mentor/5. huddle-landing-page-with-single-introductory-section-master/style.scss */
+.item-attribution a {
+  color: #fbb480;
+  outline: none;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
